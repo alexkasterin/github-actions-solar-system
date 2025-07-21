@@ -50,7 +50,7 @@ jobs:
         - name: Install Dependencies
           run: npm install
         - name: Code Covarage Execution
-          run: npm run code-coverage
+          run: npm run coverage
           continue-on-error: true
         - name: Archive Code Coverage Result
           if: always()
