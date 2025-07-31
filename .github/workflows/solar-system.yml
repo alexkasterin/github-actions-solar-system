@@ -146,7 +146,7 @@ jobs:
             method: kubeconfig
             kubeconfig: ${{ secrets.KUBECONFIG }}
   
-        - name: Fetch Kubernetes Cluster Details
-          run: kubectl version -o yaml
+#        - name: Fetch Kubernetes Cluster Details
+#          run: kubectl version -o yaml
   
   
